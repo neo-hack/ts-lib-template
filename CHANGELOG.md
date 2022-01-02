@@ -1,5 +1,11 @@
 # v0.3.0
 
+## 0.5.1
+
+### Patch Changes
+
+- e57d560: add tsc-progress
+
 ## 0.5.0
 
 ### Minor Changes
