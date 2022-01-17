@@ -1,5 +1,11 @@
 # v0.3.0
 
+## 0.5.2
+
+### Patch Changes
+
+- be354a0: upgrade eslint
+
 ## 0.5.1
 
 ### Patch Changes
