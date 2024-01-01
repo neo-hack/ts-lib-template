@@ -26,7 +26,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "rimraf lib && ttsc",
+    "build": "rimraf lib && tspc",
     "dev": "rimraf lib && ttsc -w",
     "test": "pnpm run build && jest",
     "pretest": "pnpm run build",
@@ -38,7 +38,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/**/*.{js,ts,tsx,vue,json}": [
+    "**/**/*.{js,ts,tsx,json,yml,yaml,md}": [
       "eslint --fix"
     ]
   },
@@ -56,15 +56,15 @@
     "rimraf": "3.0.2",
     "ts-jest": "27.0.3",
     "ts-node": "10.0.0",
+    "ts-patch": "3.1.1",
     "tsc-progress": "^1.0.3",
     "tslib": "2.3.0",
-    "ttypescript": "^1.5.13",
-    "typescript": "^4.5.5",
-    "typescript-transform-paths": "^3.3.1"
+    "typescript": "5.3.3",
+    "typescript-transform-paths": "3.4.6"
   },
   "config": {
     "commitizen": {
-      "path": "cz-emoji"
+      "path": "node_modules/cz-emoji"
     }
   }
 }

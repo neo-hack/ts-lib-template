@@ -14,7 +14,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "outDir": "lib",
     "baseUrl": "./",
@@ -27,7 +26,7 @@
       // Transform paths in output .d.ts files (Include this line if you output declarations files)
       { "transform": "typescript-transform-paths", "afterDeclarations": true },
       // Display tsc progress bar
-      { "transform": "tsc-progress", "name": "NEO", "color": "blue" }
+      { "transform": "tsc-progress", "title ": "NEO", "color": "blue" }
     ]
   },
   "include": ["src"]
