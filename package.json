@@ -1,6 +1,7 @@
 {
   "name": "@aiou/ts-lib-template",
   "version": "0.5.3",
+  "packageManager": "pnpm@8.13.1",
   "description": "a starter for typescript lib",
   "keywords": [
     "typescript",
