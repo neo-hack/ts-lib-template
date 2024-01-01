@@ -1,5 +1,11 @@
 # v0.3.0
 
+## 0.6.0
+
+### Minor Changes
+
+- e7d2e66: ts@5 and pnpm@8
+
 ## 0.5.3
 
 ### Patch Changes
